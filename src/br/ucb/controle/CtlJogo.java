@@ -54,7 +54,7 @@ public class CtlJogo extends HttpServlet {
 			time2.addEmpates();
 		}
 				
-		campeonato.adicionarJogo(time1, time2, golsTime1, golsTime2);
+		campeonato.adicionarJogo(time1, time2);
 		
 		dispatcher.forward(request, response);
 	}

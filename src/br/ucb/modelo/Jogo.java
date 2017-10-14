@@ -13,10 +13,10 @@ public class Jogo implements Serializable {
 	}
 
 	public void apurar() {
-		if (this.getGolsTime1() > this.golsTime2)
+		if (this.golsTime1 > this.golsTime2)
 			this.time1.adicionarPontos(3);
 		else {
-			if (this.getGolsTime2() > this.golsTime1)
+			if (this.golsTime2 > this.golsTime1)
 				this.time2.adicionarPontos(3);
 			else {
 				this.time1.adicionarPontos(1);

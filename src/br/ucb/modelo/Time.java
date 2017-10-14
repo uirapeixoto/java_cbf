@@ -80,7 +80,7 @@ public class Time implements Serializable {
     }
 	
 	public Integer getPontos() {
-        return (vitorias * 3) + (empates * 2);
+        return (this.vitorias * 3) + (this.empates);
     }
 	
 	public Integer getSaldoGols() {

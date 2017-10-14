@@ -14,12 +14,12 @@ public class Campeonato implements Serializable {
 		this.jogos = new ArrayList<Jogo>();
 	}
 	
-	public void adicionarJogo(Time time1, Time time2, int golsTime1, int golsTime2) {
+	public void adicionarJogo(Time time1, Time time2) {
 		Jogo jogo = new Jogo();
 		jogo.setTime1(time1);
 		jogo.setTime2(time2);
-		jogo.setGolsTime1(golsTime1);
-		jogo.setGolsTime2(golsTime2);
+		jogo.setGolsTime1(time1.getGolsPro());
+		jogo.setGolsTime2(time2.getGolsPro());
 		this.jogos.add(jogo);
 		jogo.apurar();
 	}
