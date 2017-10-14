@@ -51,7 +51,8 @@
 					</c:forEach>
 				</select>
 				<p>
-					Gols do time 1:<br> <input type="text" name="gols1">
+					Gols do time 1:<br> 
+					<input type="text"  required  name="gols1">
 				<p>
 					Time 2:<br> <select name="time2">
 						<c:set var="indice" value="0" />
@@ -61,10 +62,11 @@
 						</c:forEach>
 					</select>
 				<p>
-					Gols do time 2:<br> <input type="text" name="gols2">
+					Gols do time 2:<br> 
+					<input type="text" name="gols2">
 				<p>
 				<div class="row col-lg-12" style="margin-top: 10px">
-					<input type="submit" value="Enviar" class="btn btn-primary" />
+					<input type="submit" value="Enviar" required class="btn btn-primary" />
 				</div>
 				<p>
 			</form>

@@ -57,7 +57,7 @@
 					<div class="col-lg-12 form-group margin50">
 						<label class="col-lg-2" for="Name">Nome do Time</label>
 						<div class="col-lg-4">
-							<input type="text" id="nome" name="nome" placeholder=""
+							<input type="text" id="nome" required name="nome" placeholder="Time"
 								class="form-control name">
 						</div>
 					</div>
